@@ -30,7 +30,7 @@ def get_lap_features(year, gp, session_type, driver_code):
     return laps
 
 data_frames = []
-for (year, gp, session_type) in [(2024, 'Monza', 'R'), (2023, 'Monza', 'R'), (2023, 'Silverstone', 'R')]:
+for (year, gp, session_type) in [(2024, 'Monza', 'R'), (2023, 'Monza', 'R')]:
     try:
         df = get_lap_features(year, gp, session_type, 'VER')
         print(f"Loaded {len(df)} rows for {year} {gp} {session_type}")
@@ -113,3 +113,4 @@ plt.xlabel('Lap Index (Test Set)')
 plt.ylabel('Lap Time (seconds)')
 plt.legend()
 plt.show()
+
