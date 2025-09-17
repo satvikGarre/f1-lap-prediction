@@ -84,5 +84,3 @@ Lap time prediction is critical in Formula 1 for race strategy optimization, tyr
 For questions or suggestions, please reach out via GitHub issues or contact me at `garresatvik@gmail.com`.
 
 ***
-
-Feel free to personalize the Contact section and add any other notes or references you find useful!
